@@ -1,186 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - ManageDukaan</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            color: #333;
-            background-color: #f9f9f9;
-        }
-        .container {
-            background: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #2c3e50;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #34495e;
-            margin-top: 30px;
-        }
-        .highlight {
-            background-color: #e8f4f8;
-            padding: 15px;
-            border-left: 4px solid #3498db;
-            margin: 20px 0;
-        }
-        .no-data {
-            background-color: #e8f5e8;
-            padding: 15px;
-            border-left: 4px solid #27ae60;
-            margin: 20px 0;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        .contact {
-            background-color: #fff3cd;
-            padding: 15px;
-            border-left: 4px solid #ffc107;
-            margin: 20px 0;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #eee;
-            color: #666;
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — ManageDukaan</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #5a5a5a;
+    --rule: #e2e2e2;
+    --bg: #ffffff;
+    --accent: #1a5c3a;
+    --note-bg: #f6f8f7;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 20px 80px; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 6px; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); font-size: 0.92rem; margin: 0 0 28px; }
+  h2 {
+    font-size: 1.18rem; margin: 38px 0 10px; padding-top: 18px;
+    border-top: 1px solid var(--rule); letter-spacing: -0.005em;
+  }
+  h3 { font-size: 1rem; margin: 22px 0 6px; }
+  p, li { color: var(--ink); }
+  ul { padding-left: 22px; }
+  li { margin: 5px 0; }
+  a { color: var(--accent); }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 0.93rem; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { background: var(--note-bg); font-weight: 600; }
+  .tablewrap { overflow-x: auto; }
+  .note {
+    background: var(--note-bg); border-left: 3px solid var(--accent);
+    padding: 14px 16px; margin: 18px 0; border-radius: 0 4px 4px 0;
+  }
+  .note p { margin: 0; }
+  footer { margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.88rem; }
+  code { background: var(--note-bg); padding: 1px 5px; border-radius: 3px; font-size: 0.9em; }
+</style>
 </head>
 <body>
-    <div class="container">
-        <h1>Privacy Policy for ManageDukaan</h1>
-        
-        <p><strong>Effective Date:</strong> October 15, 2025<br>
-        <strong>Last Updated:</strong> October 15, 2025</p>
+<div class="wrap">
 
-        <h2>Overview</h2>
-        <p>ManageDukaan ("we," "our," or "us") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we handle information when you use our grocery store management application.</p>
+<h1>Privacy Policy for ManageDukaan</h1>
+<p class="sub">
+  Effective date: 6 September 2026 &nbsp;·&nbsp; Last updated: 6 September 2026<br>
+  Applies to the Android application <code>com.managedukaan.app</code>
+</p>
 
-        <div class="no-data">
-            <h2>🚫 No Data Collection</h2>
-            <p><strong>ManageDukaan operates as a completely offline application.</strong> We do not collect, store, or transmit any personal information to external servers.</p>
-        </div>
+<div class="note">
+<p><strong>In short:</strong> ManageDukaan is a cloud-synced app. Your shop data is stored on your
+device and also on Google Firebase servers so it syncs across your devices and your shop staff.
+We do not sell your data, we do not show ads, and we do not use advertising identifiers.
+We do use Google's standard app analytics to understand app stability and usage.</p>
+</div>
 
-        <h2>Information We Handle</h2>
-        <h3>Data Stored Locally</h3>
-        <p>All data remains on your device and includes:</p>
-        <ul>
-            <li><strong>Business Data:</strong> Inventory items, sales transactions, customer information</li>
-            <li><strong>Settings:</strong> App preferences, shop name, profit margins</li>
-            <li><strong>Generated Content:</strong> Receipts, reports, analytics data</li>
-        </ul>
+<h2>1. Who we are</h2>
+<p>ManageDukaan ("we", "our", "us") provides a point-of-sale, inventory and credit-ledger
+(khata) application for small retail shops. This policy explains what information the app
+handles, why, and what choices you have. It applies to the ManageDukaan Android app and the
+backend services that support it.</p>
 
-        <div class="highlight">
-            <h2>🔒 Privacy Guarantees</h2>
-            <ul>
-                <li>We do <strong>NOT</strong> collect, store, or transmit any personal information</li>
-                <li>We do <strong>NOT</strong> send data to external servers</li>
-                <li>We do <strong>NOT</strong> use analytics or tracking services</li>
-                <li>We do <strong>NOT</strong> collect usage statistics</li>
-            </ul>
-        </div>
+<h2>2. Information we handle</h2>
 
-        <h2>How We Use Information</h2>
-        <p>Since all data remains on your device:</p>
-        <ul>
-            <li>Data is used solely for app functionality</li>
-            <li>No data is shared with third parties</li>
-            <li>No data is transmitted over the internet</li>
-            <li>You have complete control over your data</li>
-        </ul>
+<h3>2.1 Account information</h3>
+<p>You sign in with your mobile number. We collect and store:</p>
+<ul>
+  <li>Your <strong>phone number</strong> (used as your login identity, verified by one-time SMS code)</li>
+  <li>Your display name, your role (owner, manager, cashier or viewer), the shops you belong to,
+      and account creation / last sign-in timestamps</li>
+</ul>
+<p>Phone verification is performed by Google Firebase Authentication. Delivery of the one-time
+code involves your mobile network operator.</p>
 
-        <h2>App Permissions</h2>
-        <h3>Storage Permission</h3>
-        <ul>
-            <li><strong>Purpose:</strong> To save receipts, export data, and backup information</li>
-            <li><strong>Data Access:</strong> Only accesses app-specific files on your device</li>
-            <li><strong>Usage:</strong> Local file storage only</li>
-        </ul>
+<h3>2.2 Shop and business data</h3>
+<p>Data you enter while running your shop, including: shop name and owner contact number,
+product catalogue and prices, stock and purchase records, supplier details, sales transactions,
+payment records, and credit (khata) balances.</p>
 
-        <h3>Camera Permission (Future Feature)</h3>
-        <ul>
-            <li><strong>Purpose:</strong> To scan product barcodes (if implemented in future updates)</li>
-            <li><strong>Data Access:</strong> Camera feed processed locally</li>
-            <li><strong>Usage:</strong> No images stored or transmitted</li>
-        </ul>
+<h3>2.3 Customer and staff details you enter</h3>
+<p>To run a credit ledger you may record a customer's <strong>name</strong>, an optional
+<strong>phone number</strong>, and free-text notes. To share a shop you may add staff members
+by name, phone number and role.</p>
+<div class="note">
+<p><strong>Your responsibility:</strong> these are other people's personal details. By entering
+them you confirm you have a lawful basis to do so, and you are responsible for how you use them
+— for example when sending a payment reminder. We process this information on your behalf.</p>
+</div>
 
-        <h3>Internet Permission</h3>
-        <ul>
-            <li><strong>Purpose:</strong> For sharing receipts via messaging apps (optional feature)</li>
-            <li><strong>Data Access:</strong> Only when you choose to share receipts</li>
-            <li><strong>Usage:</strong> Direct sharing to your chosen apps only</li>
-        </ul>
+<h3>2.4 Contacts</h3>
+<p>If you tap "From Contacts" when adding a customer, the app asks for contacts permission and
+opens your phone's <strong>system contact picker</strong>. Only the <strong>single contact you
+choose</strong> is read, and only that contact's name and phone number. The app does not read,
+upload or index your contact list in bulk. If you decline the permission, you can still add
+customers by typing their details.</p>
 
-        <h2>Data Security</h2>
-        <ul>
-            <li>All data is encrypted and stored locally on your device</li>
-            <li>No external access to your data</li>
-            <li>Regular app updates include security improvements</li>
-            <li>You can delete all app data by uninstalling the application</li>
-        </ul>
+<h3>2.5 Camera and photos</h3>
+<ul>
+  <li><strong>Barcode scanning</strong> — the camera reads barcodes on-device. Camera frames are
+      not recorded or uploaded.</li>
+  <li><strong>Purchase invoice photos and shop logo</strong> — images you choose to attach are
+      uploaded to Google Firebase Storage under your shop's account so they sync across devices.</li>
+  <li><strong>Receipt scanning (AI)</strong> — if you use the receipt-scan feature, the receipt
+      image is sent to Google's Gemini model through Firebase AI Logic to extract line items.
+      See section 4.</li>
+</ul>
 
-        <h2>Your Rights</h2>
-        <p>You have complete control over your data:</p>
-        <ul>
-            <li><strong>Access:</strong> All data is stored on your device</li>
-            <li><strong>Modification:</strong> Edit or delete data through the app interface</li>
-            <li><strong>Deletion:</strong> Remove app data by uninstalling the application</li>
-            <li><strong>Export:</strong> Use built-in export features to backup your data</li>
-        </ul>
+<h3>2.6 Analytics and diagnostics</h3>
+<p>The app includes Google Firebase Analytics, which automatically collects standard app
+events (such as first open, session and screen activity), basic device and app-version
+information, and a Firebase <strong>app instance identifier</strong>. This is used to understand
+stability and feature usage in aggregate.</p>
+<p><strong>We do not use the Android Advertising ID.</strong> The <code>AD_ID</code> permission is
+explicitly removed from the app and advertising-ID collection is disabled in the app's
+configuration. We serve no advertising.</p>
 
-        <h2>Children's Privacy</h2>
-        <p>ManageDukaan is designed for business use and is not intended for children under 13. We do not knowingly collect personal information from children.</p>
+<h3>2.7 Bluetooth and location permissions</h3>
+<p>The app requests Bluetooth permissions to connect to thermal receipt printers and barcode
+scanners. On older Android versions the operating system requires a location permission in order
+to scan for nearby Bluetooth devices. <strong>We do not collect, use, store or infer your
+location.</strong></p>
 
-        <h2>Third-Party Services</h2>
-        <p>ManageDukaan does not integrate with third-party analytics, advertising, or data collection services.</p>
+<h2>3. Where your data is stored</h2>
+<p>ManageDukaan is offline-first: your data is written to local storage on your device so the
+app works without a network connection. The same data is synchronised to
+<strong>Google Firebase (Cloud Firestore, Firebase Storage and Firebase Authentication)</strong>,
+operated by Google LLC, so that it is backed up and available on your other devices and to staff
+you have added to your shop. Data in transit is encrypted using HTTPS/TLS, and is encrypted at
+rest by Google Cloud. Access is restricted by security rules to your own shop account.</p>
+<p>This means your data may be stored and processed on servers outside your country.</p>
 
-        <h2>Data Retention</h2>
-        <ul>
-            <li>Data is retained on your device until you delete it</li>
-            <li>No automatic data deletion</li>
-            <li>You control data retention through app usage</li>
-        </ul>
+<h2>4. Third parties</h2>
+<div class="tablewrap">
+<table>
+  <tr><th>Service</th><th>What it receives</th><th>Why</th></tr>
+  <tr>
+    <td>Google Firebase (Auth, Firestore, Storage, Analytics)</td>
+    <td>Account details, shop and business data, attached images, analytics events</td>
+    <td>Authentication, cloud sync, backup, app diagnostics</td>
+  </tr>
+  <tr>
+    <td>Google Gemini via Firebase AI Logic</td>
+    <td>The receipt image you scan, when you use that feature</td>
+    <td>Extracting line items from a purchase receipt</td>
+  </tr>
+  <tr>
+    <td>Open Food Facts (openfoodfacts.org)</td>
+    <td>The product barcode number only</td>
+    <td>Looking up a product name and image when you scan a barcode</td>
+  </tr>
+  <tr>
+    <td>Your mobile network operator</td>
+    <td>Your phone number</td>
+    <td>Delivering the one-time sign-in code by SMS</td>
+  </tr>
+</table>
+</div>
+<p>These providers process data on our instructions in order to deliver the app.
+<strong>We do not sell your data, and we do not share it with advertisers, data brokers or for
+any advertising or profiling purpose.</strong> We may disclose information if required by law.</p>
 
-        <h2>Changes to This Policy</h2>
-        <p>We may update this Privacy Policy to reflect changes in our practices. Any changes will be posted within the app and will be effective immediately.</p>
+<h2>5. Why we process your data</h2>
+<ul>
+  <li><strong>To provide the app</strong> — billing, inventory, khata, receipts and invoices</li>
+  <li><strong>To sync and back up</strong> your data across devices and shop staff</li>
+  <li><strong>To authenticate you</strong> and control who can access your shop</li>
+  <li><strong>To keep the app working</strong> — diagnosing crashes and understanding aggregate usage</li>
+</ul>
+<p>We do not use your shop's business records to build advertising profiles.</p>
 
-        <div class="contact">
-            <h2>Contact Information</h2>
-            <p>For questions about this Privacy Policy or our data practices, please contact us at:</p>
-            <p><strong>Email:</strong> support@managedukaan.com<br>
-            <strong>Subject:</strong> ManageDukaan Privacy Policy Inquiry</p>
-        </div>
+<h2>6. How long we keep data</h2>
+<p>We keep your data for as long as your account is active, so your records remain available to
+you. Deleted records are retained briefly as deletion markers so the deletion propagates to your
+other devices, and are then purged. If you ask us to delete your account, see section 7.</p>
 
-        <h2>Legal Compliance</h2>
-        <p>This Privacy Policy complies with:</p>
-        <ul>
-            <li>Google Play Store requirements</li>
-            <li>General Data Protection Regulation (GDPR) principles</li>
-            <li>California Consumer Privacy Act (CCPA) requirements</li>
-            <li>Other applicable privacy laws</li>
-        </ul>
+<h2>7. Your rights and how to delete your data</h2>
+<p>Within the app you can view, edit, export (CSV / backup file) and delete individual records at
+any time.</p>
+<p><strong>To delete your account and all associated data</strong>, email
+<a href="mailto:support@managedukaan.com">support@managedukaan.com</a> from your registered
+address, or include your registered mobile number, with the subject
+<strong>"Delete my ManageDukaan account"</strong>. We will verify the request and delete your
+account, your shop records, and any uploaded images. We aim to complete this within 30 days.</p>
+<p>You may also request a copy of your data, correction of inaccurate data, or withdrawal of
+consent (by discontinuing use and requesting deletion) using the same address.</p>
+<p>Uninstalling the app removes the local copy from your device but does not delete data already
+synced to the cloud — use the deletion request above for that.</p>
 
-        <div class="footer">
-            <p><strong>Last Updated:</strong> October 15, 2025<br>
-            <strong>Version:</strong> 1.0</p>
-            <p><em>This privacy policy is effective immediately and applies to all versions of the ManageDukaan application.</em></p>
-        </div>
-    </div>
+<h2>8. Children</h2>
+<p>ManageDukaan is a business tool intended for shop owners and their staff. It is not directed
+at children, and we do not knowingly collect data from children under 13.</p>
+
+<h2>9. Security</h2>
+<p>We rely on Google Firebase's encryption in transit and at rest, and on server-side security
+rules that restrict each shop's data to its authorised members. No system is perfectly secure;
+please keep your device and your sign-in number secure, and remove staff members who should no
+longer have access.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>We may update this policy as the app changes. The effective date at the top will be updated,
+and material changes will be reflected here before they take effect.</p>
+
+<h2>11. Contact and grievances</h2>
+<p>For any privacy question, data request or grievance:
+<a href="mailto:support@managedukaan.com">support@managedukaan.com</a>. We aim to respond within
+7 days, in line with applicable Indian grievance-redressal expectations.</p>
+
+<footer>
+This policy is intended to meet the requirements of Google Play's User Data and Data safety
+policies, India's Digital Personal Data Protection Act 2023, and, where applicable, the GDPR
+and CCPA.
+</footer>
+
+</div>
 </body>
 </html>
